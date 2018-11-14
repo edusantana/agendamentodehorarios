@@ -6,12 +6,7 @@ Funcionalidade: registrar que horário de aula estará disponível
 Cenário: Professor registrando que não dará aula
 Dado um professor que está cadastrado no sistema
 E existe a turma "2A" cadastrada
-E deseja cadastrar a seguinte falta:
-Exemplos:
-| Usuario | Senha  | Permissao       |
-|  | "0001" | "Administrador" |
-| "sonia" | "0004" | "Gestor"        |
-| "jose"  | "0006" | "Executivo"     |
+E deseja cadastrar uma falta
 Dado estamos na tela inicial
 Quando preenchemos o login
 E preenchemos a senha
