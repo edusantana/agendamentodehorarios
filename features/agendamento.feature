@@ -17,7 +17,6 @@ E preencher a justificativa com "Vou ao dentista, era urgente"
 E selecionar a turma "2A"
 E clicar no horário 1
 E clicar no horário 2
-E clicar no horário 3
 E preencher a data da falta com "18/12/18"
 E clicar em "Registrar disponibilidade"
 Quando eu clicar em "Pegar aulas"
