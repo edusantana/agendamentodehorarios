@@ -21,3 +21,18 @@ E preencher a data da falta com "18/12/18"
 E clicar em "Registrar disponibilidade"
 Quando eu clicar em "Pegar aulas"
 Então veremos que a disponibilidade foi cadastrada
+
+
+Cenário: Professor pegando aula disponibilizada
+Dado eu estou logado no sistema
+E existe uma ausencia cadastrada
+E eu sou um professor que deseja pegar horário do professor ausente
+Quando eu clicar em "Pegar aulas"
+Então vou ver uma lista contendo as ausencia cadastradas
+E vejo a data da ausência
+E vejo o nome do professor
+E vejo a turma da ausência
+E vejo os horários da ausência
+E no campo substituição não tem nome de ninguém
+Quando eu clicar no botão "pegar" ao lado da ausência escolhida
+Então o campo substituição passará a ter o meu nome
